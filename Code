@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tair - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: grey;
+            color: black;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            transition: background 0.5s, color 0.5s;
+        }
+        header {
+            background-color: #111;
+            padding: 20px;
+            font-size: 24px;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+        }
+        .btn {
+            background-color: orange;
+            color: black;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        .btn:hover {
+            background-color: darkorange;
+        }
+        .theme-toggle {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background-color: cyan;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+        }
+        .light-mode {
+            background-color: dark;
+            color: white;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid white;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #222;
+        }
+        .sports-gallery img {
+            width: 100%;
+            height: auto;
+            max-width: 600px;
+            display: block;
+            margin: 20px auto;
+            border-radius: 10px;
+        }
+        a {
+            color: cyan;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        a:hover {
+            color: orange;
+        }
+    </style>
+</head>
+<body>
+    <header>Tair Muratbek - Portfolio</header>
+    <button class="theme-toggle" onclick="toggleTheme()">Toggle Theme</button>
+    <div class="container">
+        <h1>About Me</h1>
+        <p> Im Toirbek Uzbek
+        
+        <h2>Why Im cool</h2>
+        <ul>
+            <li>because</li>
+            <li>testasterone</li>
+            <li>basketball</li>
+        </ul>
+        
+        <h2>Additional Information</h2>
+        <table>
+            <tr>
+                <th>Category</th>
+                <th>Details</th>
+            </tr>
+            <tr>
+                <td>Age</td>
+                <td>16</td>
+            </tr>
+            <tr>
+                <td>Location</td>
+                <td>Los Angeles Rixos Hotel</td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>muratbektair@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Income</td>
+                <td>1000000 tenge/month</td>
+            </tr>
+        </table>
+        
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:muratbektair@gmail.com">My Gmail</a></p>
+        <p>GitHub: <a href="https://github.com/tairmuratbek/Project-school-Tair-.git" target="_blank">Tair</a></p>
+    </div>
+</body>
+<script>
+    function toggleTheme() {
+        document.body.classList.toggle("light-mode");
+    }
+</script>
+
+
+<h2>Feedback</h2>
+<p>If you have any feedback, feel free to leave it below!</p>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSebq59adlFCWAnfNxtZOXlVaNiGanpndKW4sQN074IpBwHinA/viewform?embedded=true" width="640" height="407" frameborder="0" marginheight="0" marginwidth="0"> feedback </iframe>
+
+<body>
+    <ul>
+        <li>persistent</li>
+        <li>dedication</li>
+        <li>passion</li>
+        <li>hustle</li>
+        <li>everyday getting better</li>
+      </ul>
+      <table>
+        <tr>
+          <th>Company</th>
+          <th>Contact</th>
+          <th>Country</th>
+        </tr>
+        <tr>
+          <td>Alfreds Futterkiste</td>
+          <td>Maria Anders</td>
+          <td>Germany</td>
+        </tr>
+        <tr>
+          <td>Centro comercial Moctezuma</td>
+          <td>Francisco Chang</td>
+          <td>Mexico</td>
+        </tr>
+      </table>
+</body>
+</html>
